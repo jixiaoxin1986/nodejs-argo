@@ -1,20 +1,9 @@
 {
-  "name": "nodejs",
-  "version": "1,0,0",
-  "description": "Thsi is a node project",
+  "name": "katabump-node",
+  "version": "1.0.0",
+  "description": "proxy node on katabump",
   "main": "index.js",
-  "author": "",
-  "repository": "",
-  "license": "MIT",
-  "private": false,
-  "scripts": {
-    "dev": "node index.js",
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "axios": "latest"
-  },
-  "engines": {
-    "node": ">=14"
-  }
+  "scripts": { "start": "node index.js" },
+  "dependencies": { "axios": "latest" },
+  "engines": { "node": ">=14" }
 }
